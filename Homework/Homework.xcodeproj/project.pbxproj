@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* HomeworkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HomeworkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28D3F202112F7DC200FD0661 /* Homework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D3F201112F7DC200FD0661 /* Homework.xcdatamodeld */; };
+		FC045AD713297A8E00153B93 /* HomeworkAssignmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC045AD513297A8E00153B93 /* HomeworkAssignmentTableViewController.m */; };
+		FC2A8CEB132AC0B2009EA079 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8CE6132AC0B2009EA079 /* Subject.m */; };
+		FC2A8CEC132AC0B2009EA079 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8CE8132AC0B2009EA079 /* Assignment.m */; };
+		FC2A8CED132AC0B2009EA079 /* Homework.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8CEA132AC0B2009EA079 /* Homework.m */; };
+		FC2A8E46132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8E44132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m */; };
+		FC2A8EEC132C015E009EA079 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EE9132C015E009EA079 /* book.png */; };
+		FC2A8EED132C015E009EA079 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EEA132C015E009EA079 /* calendar.png */; };
+		FC2A8EEE132C015E009EA079 /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EEB132C015E009EA079 /* todo.png */; };
+		FC2A8F02132C13CB009EA079 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EFC132C13CB009EA079 /* Icon-Small-50.png */; };
+		FC2A8F03132C13CB009EA079 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EFD132C13CB009EA079 /* Icon-Small.png */; };
+		FC2A8F04132C13CB009EA079 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EFE132C13CB009EA079 /* Icon-Small@2x.png */; };
+		FC2A8F05132C13CB009EA079 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8EFF132C13CB009EA079 /* Icon.png */; };
+		FC2A8F06132C13CB009EA079 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8F00132C13CB009EA079 /* Icon@2x.png */; };
+		FC2A8F07132C13CB009EA079 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8F01132C13CB009EA079 /* Icon-72.png */; };
+		FC2A8FB2132CEEBC009EA079 /* SubjectEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8FB0132CEEBC009EA079 /* SubjectEditViewController.m */; };
+		FC2A8FC9132CF117009EA079 /* SubjectHomeworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2A8FC7132CF117009EA079 /* SubjectHomeworkTableViewController.m */; };
+		FC2A8FEA132CF7B3009EA079 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FE9132CF7B3009EA079 /* InfoPlist.strings */; };
+		FC2A8FED132CF7F5009EA079 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FEC132CF7F5009EA079 /* Localizable.strings */; };
+		FC2A8FF0132CF843009EA079 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FEF132CF843009EA079 /* RootViewController.xib */; };
+		FC2A8FF3132CF8CA009EA079 /* SubjectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FF2132CF8CA009EA079 /* SubjectTableViewController.xib */; };
+		FC2A8FF6132CF8DB009EA079 /* SubjectEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FF5132CF8DB009EA079 /* SubjectEditViewController.xib */; };
+		FC2A8FF9132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FF8132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib */; };
+		FC2A8FFC132CF901009EA079 /* AssignmentTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FFB132CF901009EA079 /* AssignmentTableViewController.xib */; };
+		FC2A8FFF132CF916009EA079 /* AssignmentEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A8FFE132CF916009EA079 /* AssignmentEditViewController.xib */; };
+		FC2A9002132CF934009EA079 /* AssignmentHomeworkTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9001132CF934009EA079 /* AssignmentHomeworkTableViewController.xib */; };
+		FC2A9005132CF957009EA079 /* HomeworkDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9004132CF957009EA079 /* HomeworkDetailTableViewController.xib */; };
+		FC2A9008132CF987009EA079 /* HomeworkDueTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9007132CF987009EA079 /* HomeworkDueTableViewController.xib */; };
+		FC2A900B132CF99B009EA079 /* HomeworkSubjectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A900A132CF99B009EA079 /* HomeworkSubjectTableViewController.xib */; };
+		FC2A900E132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A900D132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib */; };
+		FC2A9011132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9010132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib */; };
+		FC2A9014132CF9DB009EA079 /* HomeworkNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9013132CF9DB009EA079 /* HomeworkNoteViewController.xib */; };
+		FC2A9017132CF9EF009EA079 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2A9016132CF9EF009EA079 /* MainWindow.xib */; };
+		FC2AE4CC135239D00006D615 /* HomeworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2AE4CB135239D00006D615 /* HomeworkUtil.m */; };
+		FCCDA36C13281752000E8AF2 /* HomeworkDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCDA36A13281752000E8AF2 /* HomeworkDetailTableViewController.m */; };
+		FCCDA3BB13282C43000E8AF2 /* HomeworkDueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCDA3B913282C43000E8AF2 /* HomeworkDueTableViewController.m */; };
+		FCCDA42213283551000E8AF2 /* HomeworkSubjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCDA42013283551000E8AF2 /* HomeworkSubjectTableViewController.m */; };
+		FCCF167C132558C500989B8C /* AssignmentHomeworkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCF167A132558C500989B8C /* AssignmentHomeworkTableViewController.m */; };
+		FCD2DD3D132EDD090067C043 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD2DD3F132EDD090067C043 /* Default.png */; };
+		FCD2DD4F132EDD680067C043 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD2DD51132EDD680067C043 /* Default~iphone.png */; };
+		FCD2DD85132EDED10067C043 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD2DD87132EDED10067C043 /* Default@2x~iphone.png */; };
+		FCE1BF851323E6CD006832BA /* SubjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1BF831323E6CD006832BA /* SubjectTableViewController.m */; };
+		FCE1BFAA1323F006006832BA /* AssignmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1BFA81323F006006832BA /* AssignmentTableViewController.m */; };
+		FCE1BFD713241B42006832BA /* AssignmentEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE1BFD513241B42006832BA /* AssignmentEditViewController.m */; };
+		FCFF6EE7132AA6F2006E969F /* HomeworkNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF6EE5132AA6F2006E969F /* HomeworkNoteViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HomeworkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HomeworkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28860B760F44E54D00985440 /* Homework.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Homework.xcdatamodel; sourceTree = "<group>"; };
+		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Homework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Homework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Homework-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FC045AD413297A8E00153B93 /* HomeworkAssignmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkAssignmentTableViewController.h; sourceTree = "<group>"; };
+		FC045AD513297A8E00153B93 /* HomeworkAssignmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkAssignmentTableViewController.m; sourceTree = "<group>"; };
+		FC045AD613297A8E00153B93 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FC2A8CE5132AC0B2009EA079 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		FC2A8CE6132AC0B2009EA079 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		FC2A8CE7132AC0B2009EA079 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
+		FC2A8CE8132AC0B2009EA079 /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
+		FC2A8CE9132AC0B2009EA079 /* Homework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework.h; sourceTree = "<group>"; };
+		FC2A8CEA132AC0B2009EA079 /* Homework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Homework.m; sourceTree = "<group>"; };
+		FC2A8E43132BA6E7009EA079 /* HomeworkDeliveredTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDeliveredTableViewController.h; sourceTree = "<group>"; };
+		FC2A8E44132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDeliveredTableViewController.m; sourceTree = "<group>"; };
+		FC2A8E45132BA6E7009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
+		FC2A8EE9132C015E009EA079 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		FC2A8EEA132C015E009EA079 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		FC2A8EEB132C015E009EA079 /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
+		FC2A8EFC132C13CB009EA079 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		FC2A8EFD132C13CB009EA079 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		FC2A8EFE132C13CB009EA079 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FC2A8EFF132C13CB009EA079 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FC2A8F00132C13CB009EA079 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FC2A8F01132C13CB009EA079 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		FC2A8FAF132CEEBC009EA079 /* SubjectEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectEditViewController.h; sourceTree = "<group>"; };
+		FC2A8FB0132CEEBC009EA079 /* SubjectEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectEditViewController.m; sourceTree = "<group>"; };
+		FC2A8FB1132CEEBC009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
+		FC2A8FC6132CF117009EA079 /* SubjectHomeworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectHomeworkTableViewController.h; sourceTree = "<group>"; };
+		FC2A8FC7132CF117009EA079 /* SubjectHomeworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectHomeworkTableViewController.m; sourceTree = "<group>"; };
+		FC2A8FC8132CF117009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FC2A8FE5132CF79D009EA079 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC2A8FE6132CF79D009EA079 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC2A8FEB132CF7BC009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC2A8FEE132CF7FC009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC2A8FF1132CF84D009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		FC2A8FF4132CF8CF009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SubjectTableViewController.xib; sourceTree = "<group>"; };
+		FC2A8FF7132CF8E2009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
+		FC2A8FFA132CF8F6009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FC2A8FFD132CF908009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FC2A9000132CF91E009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
+		FC2A9003132CF93C009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FC2A9006132CF95D009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
+		FC2A9009132CF98E009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
+		FC2A900C132CF9A2009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
+		FC2A900F132CF9BA009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FC2A9012132CF9CD009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
+		FC2A9015132CF9E4009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
+		FC2A9018132CF9F7009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FC2AE4CA135239D00006D615 /* HomeworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkUtil.h; sourceTree = "<group>"; };
+		FC2AE4CB135239D00006D615 /* HomeworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkUtil.m; sourceTree = "<group>"; };
+		FCCDA36913281752000E8AF2 /* HomeworkDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDetailTableViewController.h; sourceTree = "<group>"; };
+		FCCDA36A13281752000E8AF2 /* HomeworkDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDetailTableViewController.m; sourceTree = "<group>"; };
+		FCCDA36B13281752000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
+		FCCDA3B813282C43000E8AF2 /* HomeworkDueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDueTableViewController.h; sourceTree = "<group>"; };
+		FCCDA3B913282C43000E8AF2 /* HomeworkDueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDueTableViewController.m; sourceTree = "<group>"; };
+		FCCDA3BA13282C43000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
+		FCCDA41F13283551000E8AF2 /* HomeworkSubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkSubjectTableViewController.h; sourceTree = "<group>"; };
+		FCCDA42013283551000E8AF2 /* HomeworkSubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkSubjectTableViewController.m; sourceTree = "<group>"; };
+		FCCDA42113283551000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
+		FCCF1679132558C500989B8C /* AssignmentHomeworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentHomeworkTableViewController.h; sourceTree = "<group>"; };
+		FCCF167A132558C500989B8C /* AssignmentHomeworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentHomeworkTableViewController.m; sourceTree = "<group>"; };
+		FCCF167B132558C500989B8C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FCD2DD3E132EDD090067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/Default.png; sourceTree = "<group>"; };
+		FCD2DD4A132EDD410067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = da.lproj/Default.png; sourceTree = "<group>"; };
+		FCD2DD50132EDD680067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default~iphone.png"; sourceTree = "<group>"; };
+		FCD2DD84132EDEC60067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default~iphone.png"; sourceTree = "<group>"; };
+		FCD2DD86132EDED10067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		FCD2DD92132EDF000067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		FCE1BF821323E6CD006832BA /* SubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectTableViewController.h; sourceTree = "<group>"; };
+		FCE1BF831323E6CD006832BA /* SubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectTableViewController.m; sourceTree = "<group>"; };
+		FCE1BF841323E6CD006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SubjectTableViewController.xib; sourceTree = "<group>"; };
+		FCE1BFA71323F006006832BA /* AssignmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentTableViewController.h; sourceTree = "<group>"; };
+		FCE1BFA81323F006006832BA /* AssignmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentTableViewController.m; sourceTree = "<group>"; };
+		FCE1BFA91323F006006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FCE1BFD413241B42006832BA /* AssignmentEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentEditViewController.h; sourceTree = "<group>"; };
+		FCE1BFD513241B42006832BA /* AssignmentEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentEditViewController.m; sourceTree = "<group>"; };
+		FCE1BFD613241B42006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
+		FCFF6EE4132AA6F2006E969F /* HomeworkNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkNoteViewController.h; sourceTree = "<group>"; };
+		FCFF6EE5132AA6F2006E969F /* HomeworkNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkNoteViewController.m; sourceTree = "<group>"; };
+		FCFF6EE6132AA6F2006E969F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				28860BE50F44EE6400985440 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* HomeworkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HomeworkAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				FCCDA36913281752000E8AF2 /* HomeworkDetailTableViewController.h */,
+				FCCDA36A13281752000E8AF2 /* HomeworkDetailTableViewController.m */,
+				FCCDA3B813282C43000E8AF2 /* HomeworkDueTableViewController.h */,
+				FCCDA3B913282C43000E8AF2 /* HomeworkDueTableViewController.m */,
+				FCCDA41F13283551000E8AF2 /* HomeworkSubjectTableViewController.h */,
+				FCCDA42013283551000E8AF2 /* HomeworkSubjectTableViewController.m */,
+				FC045AD413297A8E00153B93 /* HomeworkAssignmentTableViewController.h */,
+				FC045AD513297A8E00153B93 /* HomeworkAssignmentTableViewController.m */,
+				FCFF6EE4132AA6F2006E969F /* HomeworkNoteViewController.h */,
+				FCFF6EE5132AA6F2006E969F /* HomeworkNoteViewController.m */,
+				FC2A8E43132BA6E7009EA079 /* HomeworkDeliveredTableViewController.h */,
+				FC2A8E44132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m */,
+				FCE1BF821323E6CD006832BA /* SubjectTableViewController.h */,
+				FCE1BF831323E6CD006832BA /* SubjectTableViewController.m */,
+				FC2A8FAF132CEEBC009EA079 /* SubjectEditViewController.h */,
+				FC2A8FB0132CEEBC009EA079 /* SubjectEditViewController.m */,
+				FC2A8FC6132CF117009EA079 /* SubjectHomeworkTableViewController.h */,
+				FC2A8FC7132CF117009EA079 /* SubjectHomeworkTableViewController.m */,
+				FCE1BFA71323F006006832BA /* AssignmentTableViewController.h */,
+				FCE1BFA81323F006006832BA /* AssignmentTableViewController.m */,
+				FCE1BFD413241B42006832BA /* AssignmentEditViewController.h */,
+				FCE1BFD513241B42006832BA /* AssignmentEditViewController.m */,
+				FCCF1679132558C500989B8C /* AssignmentHomeworkTableViewController.h */,
+				FCCF167A132558C500989B8C /* AssignmentHomeworkTableViewController.m */,
+				FC2AE4CA135239D00006D615 /* HomeworkUtil.h */,
+				FC2AE4CB135239D00006D615 /* HomeworkUtil.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Homework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1BF2713238CC3006832BA /* Model Classes */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Homework_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCD2DD87132EDED10067C043 /* Default@2x~iphone.png */,
+				FCD2DD51132EDD680067C043 /* Default~iphone.png */,
+				FCD2DD3F132EDD090067C043 /* Default.png */,
+				FC2A8FE9132CF7B3009EA079 /* InfoPlist.strings */,
+				FC2A8FEC132CF7F5009EA079 /* Localizable.strings */,
+				FC2A8EFC132C13CB009EA079 /* Icon-Small-50.png */,
+				FC2A8EFD132C13CB009EA079 /* Icon-Small.png */,
+				FC2A8EFE132C13CB009EA079 /* Icon-Small@2x.png */,
+				FC2A8EFF132C13CB009EA079 /* Icon.png */,
+				FC2A8F00132C13CB009EA079 /* Icon@2x.png */,
+				FC2A8F01132C13CB009EA079 /* Icon-72.png */,
+				FC2A8EE9132C015E009EA079 /* book.png */,
+				FC2A8EEA132C015E009EA079 /* calendar.png */,
+				FC2A8EEB132C015E009EA079 /* todo.png */,
+				28D3F201112F7DC200FD0661 /* Homework.xcdatamodeld */,
+				FC2A8FEF132CF843009EA079 /* RootViewController.xib */,
+				FC2A8FF2132CF8CA009EA079 /* SubjectTableViewController.xib */,
+				FC2A8FF5132CF8DB009EA079 /* SubjectEditViewController.xib */,
+				FC2A8FF8132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib */,
+				FC2A8FFB132CF901009EA079 /* AssignmentTableViewController.xib */,
+				FC2A8FFE132CF916009EA079 /* AssignmentEditViewController.xib */,
+				FC2A9001132CF934009EA079 /* AssignmentHomeworkTableViewController.xib */,
+				FC2A9004132CF957009EA079 /* HomeworkDetailTableViewController.xib */,
+				FC2A9007132CF987009EA079 /* HomeworkDueTableViewController.xib */,
+				FC2A900A132CF99B009EA079 /* HomeworkSubjectTableViewController.xib */,
+				FC2A900D132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib */,
+				FC2A9010132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib */,
+				FC2A9013132CF9DB009EA079 /* HomeworkNoteViewController.xib */,
+				FC2A9016132CF9EF009EA079 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Homework-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				28860BE40F44EE6400985440 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE1BF2713238CC3006832BA /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC2A8CE5132AC0B2009EA079 /* Subject.h */,
+				FC2A8CE6132AC0B2009EA079 /* Subject.m */,
+				FC2A8CE7132AC0B2009EA079 /* Assignment.h */,
+				FC2A8CE8132AC0B2009EA079 /* Assignment.m */,
+				FC2A8CE9132AC0B2009EA079 /* Homework.h */,
+				FC2A8CEA132AC0B2009EA079 /* Homework.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Homework" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework;
+			productName = Homework;
+			productReference = 1D6058910D05DD3D006BFB54 /* Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Homework" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				da,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Homework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2A9017132CF9EF009EA079 /* MainWindow.xib in Resources */,
+				FC2A8FF0132CF843009EA079 /* RootViewController.xib in Resources */,
+				FC2A8FF3132CF8CA009EA079 /* SubjectTableViewController.xib in Resources */,
+				FC2A8FFC132CF901009EA079 /* AssignmentTableViewController.xib in Resources */,
+				FC2A8FFF132CF916009EA079 /* AssignmentEditViewController.xib in Resources */,
+				FC2A9002132CF934009EA079 /* AssignmentHomeworkTableViewController.xib in Resources */,
+				FC2A9005132CF957009EA079 /* HomeworkDetailTableViewController.xib in Resources */,
+				FC2A9008132CF987009EA079 /* HomeworkDueTableViewController.xib in Resources */,
+				FC2A900B132CF99B009EA079 /* HomeworkSubjectTableViewController.xib in Resources */,
+				FC2A900E132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib in Resources */,
+				FC2A9014132CF9DB009EA079 /* HomeworkNoteViewController.xib in Resources */,
+				FC2A9011132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib in Resources */,
+				FC2A8EEC132C015E009EA079 /* book.png in Resources */,
+				FC2A8EED132C015E009EA079 /* calendar.png in Resources */,
+				FC2A8EEE132C015E009EA079 /* todo.png in Resources */,
+				FC2A8F02132C13CB009EA079 /* Icon-Small-50.png in Resources */,
+				FC2A8F03132C13CB009EA079 /* Icon-Small.png in Resources */,
+				FC2A8F04132C13CB009EA079 /* Icon-Small@2x.png in Resources */,
+				FC2A8F05132C13CB009EA079 /* Icon.png in Resources */,
+				FC2A8F06132C13CB009EA079 /* Icon@2x.png in Resources */,
+				FC2A8F07132C13CB009EA079 /* Icon-72.png in Resources */,
+				FC2A8FF6132CF8DB009EA079 /* SubjectEditViewController.xib in Resources */,
+				FC2A8FF9132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib in Resources */,
+				FC2A8FEA132CF7B3009EA079 /* InfoPlist.strings in Resources */,
+				FC2A8FED132CF7F5009EA079 /* Localizable.strings in Resources */,
+				FCD2DD3D132EDD090067C043 /* Default.png in Resources */,
+				FCD2DD85132EDED10067C043 /* Default@2x~iphone.png in Resources */,
+				FCD2DD4F132EDD680067C043 /* Default~iphone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HomeworkAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				28D3F202112F7DC200FD0661 /* Homework.xcdatamodeld in Sources */,
+				FCE1BF851323E6CD006832BA /* SubjectTableViewController.m in Sources */,
+				FCE1BFAA1323F006006832BA /* AssignmentTableViewController.m in Sources */,
+				FCE1BFD713241B42006832BA /* AssignmentEditViewController.m in Sources */,
+				FCCF167C132558C500989B8C /* AssignmentHomeworkTableViewController.m in Sources */,
+				FCCDA36C13281752000E8AF2 /* HomeworkDetailTableViewController.m in Sources */,
+				FCCDA3BB13282C43000E8AF2 /* HomeworkDueTableViewController.m in Sources */,
+				FCCDA42213283551000E8AF2 /* HomeworkSubjectTableViewController.m in Sources */,
+				FC045AD713297A8E00153B93 /* HomeworkAssignmentTableViewController.m in Sources */,
+				FCFF6EE7132AA6F2006E969F /* HomeworkNoteViewController.m in Sources */,
+				FC2A8CEB132AC0B2009EA079 /* Subject.m in Sources */,
+				FC2A8CEC132AC0B2009EA079 /* Assignment.m in Sources */,
+				FC2A8CED132AC0B2009EA079 /* Homework.m in Sources */,
+				FC2A8E46132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m in Sources */,
+				FC2A8FB2132CEEBC009EA079 /* SubjectEditViewController.m in Sources */,
+				FC2A8FC9132CF117009EA079 /* SubjectHomeworkTableViewController.m in Sources */,
+				FC2AE4CC135239D00006D615 /* HomeworkUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC2A8FE9132CF7B3009EA079 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A8FE5132CF79D009EA079 /* English */,
+				FC2A8FEB132CF7BC009EA079 /* da */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC2A8FEC132CF7F5009EA079 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A8FE6132CF79D009EA079 /* English */,
+				FC2A8FEE132CF7FC009EA079 /* da */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FC2A8FEF132CF843009EA079 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2899E55F0DE3E45000AC0155 /* English */,
+				FC2A8FF1132CF84D009EA079 /* da */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A8FF2132CF8CA009EA079 /* SubjectTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1BF841323E6CD006832BA /* English */,
+				FC2A8FF4132CF8CF009EA079 /* da */,
+			);
+			name = SubjectTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A8FF5132CF8DB009EA079 /* SubjectEditViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A8FB1132CEEBC009EA079 /* English */,
+				FC2A8FF7132CF8E2009EA079 /* da */,
+			);
+			name = SubjectEditViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A8FF8132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A8FC8132CF117009EA079 /* English */,
+				FC2A8FFA132CF8F6009EA079 /* da */,
+			);
+			name = SubjectHomeworkTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A8FFB132CF901009EA079 /* AssignmentTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1BFA91323F006006832BA /* English */,
+				FC2A8FFD132CF908009EA079 /* da */,
+			);
+			name = AssignmentTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A8FFE132CF916009EA079 /* AssignmentEditViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE1BFD613241B42006832BA /* English */,
+				FC2A9000132CF91E009EA079 /* da */,
+			);
+			name = AssignmentEditViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9001132CF934009EA079 /* AssignmentHomeworkTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCF167B132558C500989B8C /* English */,
+				FC2A9003132CF93C009EA079 /* da */,
+			);
+			name = AssignmentHomeworkTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9004132CF957009EA079 /* HomeworkDetailTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCDA36B13281752000E8AF2 /* English */,
+				FC2A9006132CF95D009EA079 /* da */,
+			);
+			name = HomeworkDetailTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9007132CF987009EA079 /* HomeworkDueTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCDA3BA13282C43000E8AF2 /* English */,
+				FC2A9009132CF98E009EA079 /* da */,
+			);
+			name = HomeworkDueTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A900A132CF99B009EA079 /* HomeworkSubjectTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCDA42113283551000E8AF2 /* English */,
+				FC2A900C132CF9A2009EA079 /* da */,
+			);
+			name = HomeworkSubjectTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A900D132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC045AD613297A8E00153B93 /* English */,
+				FC2A900F132CF9BA009EA079 /* da */,
+			);
+			name = HomeworkAssignmentTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9010132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2A8E45132BA6E7009EA079 /* English */,
+				FC2A9012132CF9CD009EA079 /* da */,
+			);
+			name = HomeworkDeliveredTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9013132CF9DB009EA079 /* HomeworkNoteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFF6EE6132AA6F2006E969F /* English */,
+				FC2A9015132CF9E4009EA079 /* da */,
+			);
+			name = HomeworkNoteViewController.xib;
+			sourceTree = "<group>";
+		};
+		FC2A9016132CF9EF009EA079 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* English */,
+				FC2A9018132CF9F7009EA079 /* da */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FCD2DD3F132EDD090067C043 /* Default.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD2DD3E132EDD090067C043 /* English */,
+				FCD2DD4A132EDD410067C043 /* da */,
+			);
+			name = Default.png;
+			sourceTree = "<group>";
+		};
+		FCD2DD51132EDD680067C043 /* Default~iphone.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD2DD50132EDD680067C043 /* English */,
+				FCD2DD84132EDEC60067C043 /* da */,
+			);
+			name = "Default~iphone.png";
+			sourceTree = "<group>";
+		};
+		FCD2DD87132EDED10067C043 /* Default@2x~iphone.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD2DD86132EDED10067C043 /* English */,
+				FCD2DD92132EDF000067C043 /* da */,
+			);
+			name = "Default@2x~iphone.png";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Homework_Prefix.pch;
+				INFOPLIST_FILE = "Homework-Info.plist";
+				PRODUCT_NAME = Homework;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Homework_Prefix.pch;
+				INFOPLIST_FILE = "Homework-Info.plist";
+				PRODUCT_NAME = Homework;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jon Pedersen";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jon Pedersen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "EE2BC540-5D16-4DC0-B7B9-C78459C4F424";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE2BC540-5D16-4DC0-B7B9-C78459C4F424";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FC2A9086132D0D57009EA079 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jon Pedersen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE2BC540-5D16-4DC0-B7B9-C78459C4F424";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		FC2A9087132D0D57009EA079 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Homework_Prefix.pch;
+				INFOPLIST_FILE = "Homework-Info.plist";
+				PRODUCT_NAME = Homework;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		FC2A9088132D0DE9009EA079 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		FC2A9089132D0DE9009EA079 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Homework_Prefix.pch;
+				INFOPLIST_FILE = "Homework-Info.plist";
+				PRODUCT_NAME = Homework;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				FC2A9087132D0D57009EA079 /* Distribution */,
+				FC2A9089132D0DE9009EA079 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				FC2A9086132D0D57009EA079 /* Distribution */,
+				FC2A9088132D0DE9009EA079 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28D3F201112F7DC200FD0661 /* Homework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28860B760F44E54D00985440 /* Homework.xcdatamodel */,
+			);
+			currentVersion = 28860B760F44E54D00985440 /* Homework.xcdatamodel */;
+			path = Homework.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
