@@ -71,16 +71,13 @@
 		28860B760F44E54D00985440 /* Homework.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Homework.xcdatamodel; sourceTree = "<group>"; };
 		28860BE40F44EE6400985440 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2899E55F0DE3E45000AC0155 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		28A0AAE50D9B0CCF005BE974 /* Homework_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Homework_Prefix.pch; sourceTree = "<group>"; };
-		28AD735F0D9D9599002E5188 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Homework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Homework-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FC045AD413297A8E00153B93 /* HomeworkAssignmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkAssignmentTableViewController.h; sourceTree = "<group>"; };
 		FC045AD513297A8E00153B93 /* HomeworkAssignmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkAssignmentTableViewController.m; sourceTree = "<group>"; };
-		FC045AD613297A8E00153B93 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
 		FC2A8CE5132AC0B2009EA079 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		FC2A8CE6132AC0B2009EA079 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 		FC2A8CE7132AC0B2009EA079 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
@@ -89,7 +86,6 @@
 		FC2A8CEA132AC0B2009EA079 /* Homework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Homework.m; sourceTree = "<group>"; };
 		FC2A8E43132BA6E7009EA079 /* HomeworkDeliveredTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDeliveredTableViewController.h; sourceTree = "<group>"; };
 		FC2A8E44132BA6E7009EA079 /* HomeworkDeliveredTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDeliveredTableViewController.m; sourceTree = "<group>"; };
-		FC2A8E45132BA6E7009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
 		FC2A8EE9132C015E009EA079 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		FC2A8EEA132C015E009EA079 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		FC2A8EEB132C015E009EA079 /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
@@ -101,62 +97,66 @@
 		FC2A8F01132C13CB009EA079 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		FC2A8FAF132CEEBC009EA079 /* SubjectEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectEditViewController.h; sourceTree = "<group>"; };
 		FC2A8FB0132CEEBC009EA079 /* SubjectEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectEditViewController.m; sourceTree = "<group>"; };
-		FC2A8FB1132CEEBC009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
 		FC2A8FC6132CF117009EA079 /* SubjectHomeworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectHomeworkTableViewController.h; sourceTree = "<group>"; };
 		FC2A8FC7132CF117009EA079 /* SubjectHomeworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectHomeworkTableViewController.m; sourceTree = "<group>"; };
-		FC2A8FC8132CF117009EA079 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
-		FC2A8FE5132CF79D009EA079 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC2A8FE6132CF79D009EA079 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FC2A8FEB132CF7BC009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC2A8FEE132CF7FC009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FC2A8FF1132CF84D009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		FC2A8FF4132CF8CF009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SubjectTableViewController.xib; sourceTree = "<group>"; };
-		FC2A8FF7132CF8E2009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
-		FC2A8FFA132CF8F6009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
-		FC2A8FFD132CF908009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
-		FC2A9000132CF91E009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
-		FC2A9003132CF93C009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
-		FC2A9006132CF95D009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
-		FC2A9009132CF98E009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
-		FC2A900C132CF9A2009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
-		FC2A900F132CF9BA009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
-		FC2A9012132CF9CD009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
-		FC2A9015132CF9E4009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = Classes/da.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
 		FC2A9018132CF9F7009EA079 /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FC2AE4CA135239D00006D615 /* HomeworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkUtil.h; sourceTree = "<group>"; };
 		FC2AE4CB135239D00006D615 /* HomeworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkUtil.m; sourceTree = "<group>"; };
+		FCB0DF3017480A680056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCB0DF3117480A720056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
+		FCB0DF3217480A7C0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default~iphone.png"; sourceTree = "<group>"; };
+		FCB0DF3317480A860056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/Default.png; sourceTree = "<group>"; };
+		FCB0DF3417480A900056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCB0DF3517480A990056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FCB0DF3617480AA30056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3717480AAB0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubjectTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3817480AB30056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3917480ABC0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3A17480AC40056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3B17480AD10056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3C17480ADB0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3D17480AE30056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3E17480AEC0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF3F17480AF30056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4017480AFD0056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4117480B080056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4217480B100056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4317480B190056D0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FCB0DF4417480B5C0056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4517480B770056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4617480B880056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4717480B9A0056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkAssignmentTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4817480BA80056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkDeliveredTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4917480BB70056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4A17480BC30056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4B17480BCF0056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4C17480BDA0056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4D17480BE80056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SubjectEditViewController.xib; sourceTree = "<group>"; };
+		FCB0DF4E17480BFE0056D0BE /* da */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = da; path = da.lproj/SubjectHomeworkTableViewController.xib; sourceTree = "<group>"; };
 		FCCDA36913281752000E8AF2 /* HomeworkDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDetailTableViewController.h; sourceTree = "<group>"; };
 		FCCDA36A13281752000E8AF2 /* HomeworkDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDetailTableViewController.m; sourceTree = "<group>"; };
-		FCCDA36B13281752000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDetailTableViewController.xib; sourceTree = "<group>"; };
 		FCCDA3B813282C43000E8AF2 /* HomeworkDueTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkDueTableViewController.h; sourceTree = "<group>"; };
 		FCCDA3B913282C43000E8AF2 /* HomeworkDueTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkDueTableViewController.m; sourceTree = "<group>"; };
-		FCCDA3BA13282C43000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkDueTableViewController.xib; sourceTree = "<group>"; };
 		FCCDA41F13283551000E8AF2 /* HomeworkSubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkSubjectTableViewController.h; sourceTree = "<group>"; };
 		FCCDA42013283551000E8AF2 /* HomeworkSubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkSubjectTableViewController.m; sourceTree = "<group>"; };
-		FCCDA42113283551000E8AF2 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkSubjectTableViewController.xib; sourceTree = "<group>"; };
 		FCCF1679132558C500989B8C /* AssignmentHomeworkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentHomeworkTableViewController.h; sourceTree = "<group>"; };
 		FCCF167A132558C500989B8C /* AssignmentHomeworkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentHomeworkTableViewController.m; sourceTree = "<group>"; };
-		FCCF167B132558C500989B8C /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentHomeworkTableViewController.xib; sourceTree = "<group>"; };
-		FCD2DD3E132EDD090067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/Default.png; sourceTree = "<group>"; };
 		FCD2DD4A132EDD410067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = da.lproj/Default.png; sourceTree = "<group>"; };
-		FCD2DD50132EDD680067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default~iphone.png"; sourceTree = "<group>"; };
 		FCD2DD84132EDEC60067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default~iphone.png"; sourceTree = "<group>"; };
-		FCD2DD86132EDED10067C043 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		FCD2DD92132EDF000067C043 /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		FCE1BF821323E6CD006832BA /* SubjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectTableViewController.h; sourceTree = "<group>"; };
 		FCE1BF831323E6CD006832BA /* SubjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectTableViewController.m; sourceTree = "<group>"; };
-		FCE1BF841323E6CD006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/SubjectTableViewController.xib; sourceTree = "<group>"; };
 		FCE1BFA71323F006006832BA /* AssignmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentTableViewController.h; sourceTree = "<group>"; };
 		FCE1BFA81323F006006832BA /* AssignmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentTableViewController.m; sourceTree = "<group>"; };
-		FCE1BFA91323F006006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentTableViewController.xib; sourceTree = "<group>"; };
 		FCE1BFD413241B42006832BA /* AssignmentEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentEditViewController.h; sourceTree = "<group>"; };
 		FCE1BFD513241B42006832BA /* AssignmentEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentEditViewController.m; sourceTree = "<group>"; };
-		FCE1BFD613241B42006832BA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/AssignmentEditViewController.xib; sourceTree = "<group>"; };
-		FCF0F2EE172C6DA400CFD98B /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = "English.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCF0F2F0172C6DB500CFD98B /* da */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = da; path = "da.lproj/Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCFF6EE4132AA6F2006E969F /* HomeworkNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkNoteViewController.h; sourceTree = "<group>"; };
 		FCFF6EE5132AA6F2006E969F /* HomeworkNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkNoteViewController.m; sourceTree = "<group>"; };
-		FCFF6EE6132AA6F2006E969F /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Classes/English.lproj/HomeworkNoteViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,8 +425,8 @@
 		FC2A8FE9132CF7B3009EA079 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC2A8FE5132CF79D009EA079 /* English */,
 				FC2A8FEB132CF7BC009EA079 /* da */,
+				FCB0DF3417480A900056D0BE /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -434,8 +434,8 @@
 		FC2A8FEC132CF7F5009EA079 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC2A8FE6132CF79D009EA079 /* English */,
 				FC2A8FEE132CF7FC009EA079 /* da */,
+				FCB0DF3517480A990056D0BE /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -443,8 +443,8 @@
 		FC2A8FEF132CF843009EA079 /* RootViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2899E55F0DE3E45000AC0155 /* English */,
 				FC2A8FF1132CF84D009EA079 /* da */,
+				FCB0DF3617480AA30056D0BE /* en */,
 			);
 			name = RootViewController.xib;
 			sourceTree = "<group>";
@@ -452,8 +452,8 @@
 		FC2A8FF2132CF8CA009EA079 /* SubjectTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCE1BF841323E6CD006832BA /* English */,
 				FC2A8FF4132CF8CF009EA079 /* da */,
+				FCB0DF3717480AAB0056D0BE /* en */,
 			);
 			name = SubjectTableViewController.xib;
 			sourceTree = "<group>";
@@ -461,8 +461,8 @@
 		FC2A8FF5132CF8DB009EA079 /* SubjectEditViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC2A8FB1132CEEBC009EA079 /* English */,
-				FC2A8FF7132CF8E2009EA079 /* da */,
+				FCB0DF3817480AB30056D0BE /* en */,
+				FCB0DF4D17480BE80056D0BE /* da */,
 			);
 			name = SubjectEditViewController.xib;
 			sourceTree = "<group>";
@@ -470,8 +470,8 @@
 		FC2A8FF8132CF8ED009EA079 /* SubjectHomeworkTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC2A8FC8132CF117009EA079 /* English */,
-				FC2A8FFA132CF8F6009EA079 /* da */,
+				FCB0DF3917480ABC0056D0BE /* en */,
+				FCB0DF4E17480BFE0056D0BE /* da */,
 			);
 			name = SubjectHomeworkTableViewController.xib;
 			sourceTree = "<group>";
@@ -479,8 +479,8 @@
 		FC2A8FFB132CF901009EA079 /* AssignmentTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCE1BFA91323F006006832BA /* English */,
-				FC2A8FFD132CF908009EA079 /* da */,
+				FCB0DF3A17480AC40056D0BE /* en */,
+				FCB0DF4617480B880056D0BE /* da */,
 			);
 			name = AssignmentTableViewController.xib;
 			sourceTree = "<group>";
@@ -488,8 +488,8 @@
 		FC2A8FFE132CF916009EA079 /* AssignmentEditViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCE1BFD613241B42006832BA /* English */,
-				FC2A9000132CF91E009EA079 /* da */,
+				FCB0DF3B17480AD10056D0BE /* en */,
+				FCB0DF4417480B5C0056D0BE /* da */,
 			);
 			name = AssignmentEditViewController.xib;
 			sourceTree = "<group>";
@@ -497,8 +497,8 @@
 		FC2A9001132CF934009EA079 /* AssignmentHomeworkTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCF167B132558C500989B8C /* English */,
-				FC2A9003132CF93C009EA079 /* da */,
+				FCB0DF3C17480ADB0056D0BE /* en */,
+				FCB0DF4517480B770056D0BE /* da */,
 			);
 			name = AssignmentHomeworkTableViewController.xib;
 			sourceTree = "<group>";
@@ -506,8 +506,8 @@
 		FC2A9004132CF957009EA079 /* HomeworkDetailTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCDA36B13281752000E8AF2 /* English */,
-				FC2A9006132CF95D009EA079 /* da */,
+				FCB0DF3D17480AE30056D0BE /* en */,
+				FCB0DF4A17480BC30056D0BE /* da */,
 			);
 			name = HomeworkDetailTableViewController.xib;
 			sourceTree = "<group>";
@@ -515,8 +515,8 @@
 		FC2A9007132CF987009EA079 /* HomeworkDueTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCDA3BA13282C43000E8AF2 /* English */,
-				FC2A9009132CF98E009EA079 /* da */,
+				FCB0DF3E17480AEC0056D0BE /* en */,
+				FCB0DF4B17480BCF0056D0BE /* da */,
 			);
 			name = HomeworkDueTableViewController.xib;
 			sourceTree = "<group>";
@@ -524,8 +524,8 @@
 		FC2A900A132CF99B009EA079 /* HomeworkSubjectTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCCDA42113283551000E8AF2 /* English */,
-				FC2A900C132CF9A2009EA079 /* da */,
+				FCB0DF3F17480AF30056D0BE /* en */,
+				FCB0DF4C17480BDA0056D0BE /* da */,
 			);
 			name = HomeworkSubjectTableViewController.xib;
 			sourceTree = "<group>";
@@ -533,8 +533,8 @@
 		FC2A900D132CF9AF009EA079 /* HomeworkAssignmentTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC045AD613297A8E00153B93 /* English */,
-				FC2A900F132CF9BA009EA079 /* da */,
+				FCB0DF4017480AFD0056D0BE /* en */,
+				FCB0DF4717480B9A0056D0BE /* da */,
 			);
 			name = HomeworkAssignmentTableViewController.xib;
 			sourceTree = "<group>";
@@ -542,8 +542,8 @@
 		FC2A9010132CF9C6009EA079 /* HomeworkDeliveredTableViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC2A8E45132BA6E7009EA079 /* English */,
-				FC2A9012132CF9CD009EA079 /* da */,
+				FCB0DF4117480B080056D0BE /* en */,
+				FCB0DF4817480BA80056D0BE /* da */,
 			);
 			name = HomeworkDeliveredTableViewController.xib;
 			sourceTree = "<group>";
@@ -551,8 +551,8 @@
 		FC2A9013132CF9DB009EA079 /* HomeworkNoteViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCFF6EE6132AA6F2006E969F /* English */,
-				FC2A9015132CF9E4009EA079 /* da */,
+				FCB0DF4217480B100056D0BE /* en */,
+				FCB0DF4917480BB70056D0BE /* da */,
 			);
 			name = HomeworkNoteViewController.xib;
 			sourceTree = "<group>";
@@ -560,8 +560,8 @@
 		FC2A9016132CF9EF009EA079 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28AD735F0D9D9599002E5188 /* English */,
 				FC2A9018132CF9F7009EA079 /* da */,
+				FCB0DF4317480B190056D0BE /* en */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -569,8 +569,8 @@
 		FCD2DD3F132EDD090067C043 /* Default.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCD2DD3E132EDD090067C043 /* English */,
 				FCD2DD4A132EDD410067C043 /* da */,
+				FCB0DF3317480A860056D0BE /* en */,
 			);
 			name = Default.png;
 			sourceTree = "<group>";
@@ -578,8 +578,8 @@
 		FCD2DD51132EDD680067C043 /* Default~iphone.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCD2DD50132EDD680067C043 /* English */,
 				FCD2DD84132EDEC60067C043 /* da */,
+				FCB0DF3217480A7C0056D0BE /* en */,
 			);
 			name = "Default~iphone.png";
 			sourceTree = "<group>";
@@ -587,8 +587,8 @@
 		FCD2DD87132EDED10067C043 /* Default@2x~iphone.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCD2DD86132EDED10067C043 /* English */,
 				FCD2DD92132EDF000067C043 /* da */,
+				FCB0DF3117480A720056D0BE /* en */,
 			);
 			name = "Default@2x~iphone.png";
 			sourceTree = "<group>";
@@ -596,8 +596,8 @@
 		FCF0F2ED172C6DA400CFD98B /* Default-568h@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCF0F2EE172C6DA400CFD98B /* English */,
 				FCF0F2F0172C6DB500CFD98B /* da */,
+				FCB0DF3017480A680056D0BE /* en */,
 			);
 			name = "Default-568h@2x.png";
 			sourceTree = "<group>";
